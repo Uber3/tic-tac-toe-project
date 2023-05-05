@@ -14,12 +14,15 @@
  *    limitations under the License.
  */
 
-package tictactoe;/*
+package tictactoe.component;/*
  * @author Dzmitry Rusak
  * @link
  */
 
-public class ComputerMove {
-    public void make(final GameTable gameTable) {
+import tictactoe.model.GameTable;
+
+public class WinnerVerifier {
+    public boolean isUserWin(final GameTable gameTable) {
+        return false;
     }
 }

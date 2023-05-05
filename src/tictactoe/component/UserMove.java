@@ -14,10 +14,12 @@
  *    limitations under the License.
  */
 
-package tictactoe;/*
+package tictactoe.component;/*
  * @author Dzmitry Rusak
  * @link
  */
 
-public class GameTable {
+public class UserMove {
+    public void make() {
+    }
 }

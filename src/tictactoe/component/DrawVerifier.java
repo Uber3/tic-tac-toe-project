@@ -14,13 +14,15 @@
  *    limitations under the License.
  */
 
-package tictactoe;/*
+package tictactoe.component;/*
  * @author Dzmitry Rusak
  * @link
  */
 
-public class WinnerVerifier {
-    public boolean isUserWin(final GameTable gameTable) {
+import tictactoe.model.GameTable;
+
+public class DrawVerifier {
+    public boolean isDraw(final GameTable gameTable) {
         return false;
     }
 }

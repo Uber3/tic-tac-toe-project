@@ -14,13 +14,10 @@
  *    limitations under the License.
  */
 
-package tictactoe;/*
+package tictactoe.model;/*
  * @author Dzmitry Rusak
  * @link
  */
 
-public class DrawVerifier {
-    public boolean isDraw(final GameTable gameTable) {
-        return false;
-    }
+public class GameTable {
 }
