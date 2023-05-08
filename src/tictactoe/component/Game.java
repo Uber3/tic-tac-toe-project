@@ -50,7 +50,7 @@ public class Game {
             dataPrinter.printGameTable(gameTable);
         }
         while (true) {
-            userMove.make();
+            userMove.make(gameTable);
             dataPrinter.printGameTable(gameTable);
             if (winnerVerifier.isUserWin(gameTable)) {
                 System.out.println("YOU WIN!");
