@@ -63,8 +63,8 @@ public class Game {
 
             computerMove.make(gameTable);
             dataPrinter.printGameTable(gameTable);
-            if (winnerVerifier.isUserWin(gameTable)) {
-                System.out.println("YOU WIN!");
+            if (winnerVerifier.isComputerWin(gameTable)) {
+                System.out.println("COMPUTER WIN!");
                 break;
             }
             if (drawVerifier.isDraw(gameTable)) {
